@@ -1,0 +1,20 @@
+{
+  "name": "ai-devs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start": "node complete-task.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.1.59",
+    "@langchain/openai": "^0.0.28",
+    "@qdrant/js-client-rest": "^1.9.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.35",
+    "openai": "^4.29.2"
+  }
+}
